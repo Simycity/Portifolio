@@ -2,6 +2,7 @@
   --purple: #9b5cff;
   --bg: #0b0b0f;
   --card: #12121a;
+  --text: #ffffff;
 }
 
 * {
@@ -12,13 +13,13 @@
 
 body {
   background: var(--bg) !important;
-  color: white !important;
+  color: var(--text) !important;
   font-family: Arial, Helvetica, sans-serif;
 }
 
 /* NAV */
 nav a {
-  color: #fff;
+  color: var(--text);
   text-decoration: none;
   margin-left: 25px;
   transition: 0.3s;
@@ -136,4 +137,8 @@ footer {
 
 .contact-link:hover img {
   filter: drop-shadow(0 0 8px #9b5cff);
+}
+
+p{
+  color: var(--text);
 }
